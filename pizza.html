@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pizza Stream</title>
+  </head>
+  <link href="pizza.css" rel="stylesheet">
+  <body>
+    <div id="wrapper">
+    <div class="maincontainer">
+    <header>
+      <h1 class="mainhead">Pizza Stream</h1>
+      <h3 class="mainhead">All The Toppings You Can Click</h3>
+    </header>
+    <form action="" method="get">
+    <div class="secondhead">
+      <img = src="images/sizepizza.gif" alt="pizza_size" height="100" width="500">
+      <br>
+      <div class="pizzasize">
+      <label for="size">Pizza Size</label>
+        <select>
+          <option value="small" name="size">Small</option>
+          <option value="medium" name="size">Medium</option>
+          <option value="large" name="size">Large</option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <label>Sauces</label>
+        <select>
+          <option value="tom" name="sauce">Robust Tomato</option>
+          <option value="bbq" name="sauce">Spicy BBQ</option>
+          <option value="cheese" name="sauce">Creamy Cream</option>
+        </select>
+    </div>
+    <div>
+      <table>
+        <tr>
+          <td><input type="checkbox" name="topping"/>Sausage</td>
+          <td><input type="checkbox" name="toppting"/>Pepperoni</td>
+          <td><input type="checkbox" name="topping"/>Bacon</td>
+          <td><input type="checkbox" name="topping"/>Salami</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="topping"/>Ham</td>
+          <td><input type="checkbox" name="toppting"/>Chicken</td>
+          <td><input type="checkbox" name="topping"/>Feta Cheese</td>
+          <td><input type="checkbox" name="topping"/>Olives</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="topping"/>Banana Peppers</td>
+          <td><input type="checkbox" name="toppting"/>Jalepeno Peppers</td>
+          <td><input type="checkbox" name="topping"/>Onions</td>
+          <td><input type="checkbox" name="topping"/>Pineapple</td>
+          <td><input type="checkbox" name="topping"/>Mushrooms</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <label>Other Option</label>
+      <br>
+      <input type="checkbox" name="extras"/>Extra Cheese
+      <br>
+      <input type="checkbox" name="extras"/>Bread Sticks
+    </div>
+    <div>
+      <label>Pickup or Delivery</label>
+      <br>
+      <input type="radio" name="pickup" value="pickup"/>Pickup
+      <input type="radio" name="pickup" value="deliver"/>Delivery
+    </div>
+    <div>
+      <label for="address">Address</label>
+      <input type="text" id="address" placeholder="street address"/>
+      <br>
+      <input type="text" placeholder="city"/>
+      <input type="text" placeholder="zipcode"/>
+    </div>
+    <div>
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" size=10/>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email"placeholder="jane@doe.com"/>
+    </div>
+    <div>
+      <label>Delivery Note</label>
+      <textarea></textarea>
+    </div>
+  </div>
+  </div>
+  </body>
+</html>
